@@ -1,5 +1,5 @@
 name: 'Hello World'
-description: 'Greet someone and record the time'
+description: 'do some nonsense'
 inputs:
   some-input:  # id of input
     description: 'something to print'

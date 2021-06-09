@@ -18,5 +18,5 @@ jobs:
         with:
           some-input: 'goose'
       # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The uuid was ${{ steps.hello.outputs.some-output }}"
+      - name: view output
+        run: echo "uuid: ${{ steps.hello.outputs.some-output }}"
