@@ -14,4 +14,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: get context
-        run: echo "${{ github }}"
+        run: echo "${{ toJSON(github) }}"
