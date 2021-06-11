@@ -8,12 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to test stuff
     steps:
-      # To use this repository's private action,
-      # you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: go main custom step
-        uses: ./ # Uses an action in the root directory
+        uses: loosebazooka/docker-go-ghaction@1
         id: hello
         with:
           some-input: 'goose'
