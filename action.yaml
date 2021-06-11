@@ -1,5 +1,8 @@
 name: 'loosebazooka test1'
 description: 'really doesnt do anything, just exploring the system'
+branding:
+  icon: alert-triangle	
+  color: gray-dark
 inputs:
   some-input:  # id of input
     description: 'something to print'
