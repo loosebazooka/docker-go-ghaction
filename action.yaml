@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'do some nonsense'
+name: 'loosebazooka test1'
+description: 'really doesn't do anything, just exploring the system'
 inputs:
   some-input:  # id of input
     description: 'something to print'
